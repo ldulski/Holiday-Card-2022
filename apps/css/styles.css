@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F22E62;
+}
+a { 
+    color: #F2EFBB;
+}
