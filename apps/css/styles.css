@@ -1,9 +1,11 @@
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: #F22E62;
 }
 a { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #F2EFBB;
 }
