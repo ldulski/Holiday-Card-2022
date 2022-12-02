@@ -3,7 +3,7 @@
 html{
     font-size: 100%;
     scroll-behavior: smooth;
-    max-width: 1260px;
+    max-width: 1360px;
     min-width: 300px;
     margin: 0px;
     padding: 0px;  
@@ -14,28 +14,20 @@ html{
 }
 body{
     background-color:#F22E62;
-    background-image: url(/apps/images/Holiday\ Illustration\ envelope\ full-01.png);
+    background-image: url(/apps/images/holiday-card-bg.png);
     background-repeat: no-repeat;
-    object-fit: fill;
+    background-size: 1360px 1320px;
 }
 section{
     display:flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
-
-}
-.flex-child{
-    background-color: #F2EFBB;
-    position: absolute;
-    width: 75%;
-    margin-top: 10%;
-    margin-bottom: 30%;
-    margin-left: 35%;
-    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 20%;
     padding: 15px;
-    border-radius: 5px;
-    box-shadow: 4px 8px#143B40;
 }
 p{
     font-family: 'Alice', serif;
@@ -71,7 +63,7 @@ img{
 
 /* media queries */
 @media screen  and (max-width: 400px) {
-    body {
+    section {
         width: 75%;
         margin-left: 10%;
         margin-right: 10%;
@@ -84,9 +76,9 @@ img{
         margin-left: 20%;
         margin-right: 20%;
     }
-    body {
+    /* body {
     background-image: url(/apps/images/Holiday\ Illustration\ envelope\ full-01.png);
     background-repeat: no-repeat;
     object-fit: cover;
-    }
+    } */
 }
