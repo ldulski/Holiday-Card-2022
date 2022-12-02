@@ -22,22 +22,25 @@ body{
 }
 .flex-child{
     background-color: #F2EFBB;
-    margin: 10px 50px;
+    width: 75%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
     border-radius: 5px;
-
     box-shadow: 4px 8px#143B40;
 }
 p{
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
+    font-family: 'Alice', serif;
     font-size: 1.999rem;
     text-align: center;
     color: #143B40;
 }
 a { 
     border: 5px solid cyan;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: 'Alice', serif;
     font-size: 1.414rem;
     color: #143B40;
@@ -58,4 +61,11 @@ img{
     margin-left: 20%;
     margin-right: 20%;
 
+}
+/* media queries */
+@media screen  and (max-width: 320px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
