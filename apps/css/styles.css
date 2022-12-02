@@ -36,7 +36,6 @@ p{
     color: #143B40;
 }
 a { 
-    border: 5px solid cyan;
     margin-left: 30%;
     margin-right: 30%;
     font-family: 'Alice', serif;
@@ -49,6 +48,9 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
+    color: #143B40;
+}
+a:active{
     color: #F20544;
 }
 img{
@@ -64,7 +66,7 @@ img{
 /* media queries */
 @media screen  and (max-width: 400px) {
     section {
-        width: 75%;
+        margin-top: 10%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -76,9 +78,9 @@ img{
         margin-left: 20%;
         margin-right: 20%;
     }
-    /* body {
-    background-image: url(/apps/images/Holiday\ Illustration\ envelope\ full-01.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    } */
+    body {
+        background-image: url(/apps/images/holiday-card-bg.png);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+    }
 }
