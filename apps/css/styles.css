@@ -14,7 +14,6 @@ html{
 }
 body{
     background-color:#F22E62;
-    position: absolute;
     background-image: url(/apps/images/Holiday\ Illustration\ envelope\ full-01.png);
     background-repeat: no-repeat;
     object-fit: fill;
@@ -28,11 +27,12 @@ section{
 }
 .flex-child{
     background-color: #F2EFBB;
+    position: absolute;
     width: 75%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     margin-left: 35%;
-    margin-right: 35%;
+    margin-right: 25%;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 4px 8px#143B40;
@@ -66,14 +66,9 @@ img{
     width: 50%;
     margin-left: 20%;
     margin-right: 20%;
+} 
 
-}
-/* #envelope{
-    object-fit: fill;
-    
-    margin: 0;
-    padding: 0;
-} */
+
 /* media queries */
 @media screen  and (max-width: 400px) {
     body {
@@ -88,5 +83,10 @@ img{
         font-size: .5rem;
         margin-left: 20%;
         margin-right: 20%;
+    }
+    body {
+    background-image: url(/apps/images/Holiday\ Illustration\ envelope\ full-01.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
     }
 }
