@@ -13,15 +13,20 @@ html{
     box-sizing: inherit;
 }
 body{
-    display:flex;
     background-color:#F22E62;
+    position: absolute;
+    background-image: url(/apps/images/Holiday\ Illustration\ envelope\ full-01.png);
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+section{
+    display:flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
 
 }
 .flex-child{
-    position: absolute;
     background-color: #F2EFBB;
     width: 75%;
     margin-top: 10%;
@@ -63,6 +68,12 @@ img{
     margin-right: 20%;
 
 }
+/* #envelope{
+    object-fit: fill;
+    
+    margin: 0;
+    padding: 0;
+} */
 /* media queries */
 @media screen  and (max-width: 400px) {
     body {
